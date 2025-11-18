@@ -9,7 +9,86 @@
 </head>
 
 <body>
-
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th class="time">Monday</th>
+                <th class="time">Tuesday</th>
+                <th class="time">Wednesday</th>
+                <th class="time">Thursday</th>
+                <th class="time">Friday</th>
+                <th 
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td class="availibility">9 AM</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+          </tr>
+          <tr>
+              <td class="availibility">10 AM</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+          <tr>
+              <td class="availibility">11 AM</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+          <tr>
+              <td class="availibility">12 AM</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+          <tr>
+              <td class="availibility">1 PM</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+          <tr>
+              <td class="availibility">2 PM</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+          <tr>
+              <td class="availibility">3 PM</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+          <tr>
+              <td class="availibility">4 PM</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+          <tr>
+              <td class="availibility">5 PM</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+              <td>Available</td>
+          <tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
@@ -28,4 +107,12 @@ html {
   }
 body {
 font-size: 62.5%;
+}
+.time {
+  font-size: 1rem;
+}
+.availibility {
+  font-size: 0.8rem;
+  font-weight: 600;
+ 
 }
