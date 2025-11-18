@@ -20,73 +20,77 @@
                 <th class="time">Friday</th>
                 <th 
             </tr>
+
         </thead>
         <tbody>
           <tr>
               <td class="availibility">9 AM</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
+              <td class="available-1"></td>
+              <td class="available-2"></td>
+              <td class="available-3"></td>
+              <td class="available-4"></td>
+              <td class="available-5"></td>
           </tr>
           <tr>
               <td class="availibility">10 AM</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
+              <td class="available-1"></td>
+              <td class="available-2"></td>
+              <td class="available-3"></td>
+              <td class="available-4"></td>
+              <td class="available-5"></td>
           <tr>
               <td class="availibility">11 AM</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
+              <td class="available-1"></td>
+              <td class="available-2"></td>
+              <td class="available-3"></td>
+              <td class="available-4"></td>
+              <td class="available-5"></td>
           <tr>
               <td class="availibility">12 AM</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
+              <td class="available-1"></td>
+              <td class="available-2"></td>
+              <td class="available-3"></td>
+              <td class="available-4"></td>
+              <td class="available-5"></td>
           <tr>
               <td class="availibility">1 PM</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
+              <td class="available-1"></td>
+              <td class="available-2"></td>
+              <td class="available-3"></td>
+              <td class="available-4"></td>
+              <td class="available-5"></td>
           <tr>
               <td class="availibility">2 PM</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
+              <td class="available-1"></td>
+              <td class="available-2"></td>
+              <td class="available-3"></td>
+              <td class="available-4"></td>
+              <td class="available-5"></td>
           <tr>
               <td class="availibility">3 PM</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
+              <td class="available-1"></td>
+              <td class="available-2"></td>
+              <td class="available-3"></td>
+              <td class="available-4"></td>
+              <td class="available-5"></td>
           <tr>
               <td class="availibility">4 PM</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
+              <td class="available-1"></td>
+              <td class="available-2"></td>
+              <td class="available-3"></td>
+              <td class="available-4"></td>
+              <td class="available-5"></td>
           <tr>
               <td class="availibility">5 PM</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
-              <td>Available</td>
+              <td class="available-1"></td>
+              <td class="available-2"></td>
+              <td class="available-3"></td>
+              <td class="available-4"></td>
+              <td class="available-5"></td>
           <tr>
+          <tr>
+              <td>Availability</td>
+          </tr>
         </tbody>
     </table>
 </body>
@@ -114,5 +118,8 @@ font-size: 62.5%;
 .availibility {
   font-size: 0.8rem;
   font-weight: 600;
- 
+}
+.available-1, .available-2,.available-3, .available-4, .available-5 {
+  border: 1px solid black;
+  
 }
