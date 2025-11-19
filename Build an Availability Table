@@ -1,3 +1,5 @@
+//https://imagecolorpicker.com/ for colours;
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,75 +25,75 @@
     <tbody>
       <tr>
         <td class="availability">9 AM</td>
-        <td class="available-1"></td>
-        <td class="available-2"></td>
-        <td class="available-3"></td>
-        <td class="available-4"></td>
-        <td class="available-5"></td>
+        <td class="available-1 sharp"></td>
+        <td class="available-2 sharp"></td>
+        <td class="available-3 sharp"></td>
+        <td class="available-4 sharp"></td>
+        <td class="available-5 sharp"></td>
       </tr>
       <tr>
         <td class="availability">10 AM</td>
-        <td class="available-1"></td>
-        <td class="available-2"></td>
-        <td class="available-3"></td>
-        <td class="available-4"></td>
-        <td class="available-5"></td>
+        <td class="available-1 half"></td>
+        <td class="available-2 half"></td>
+        <td class="available-3 half"></td>
+        <td class="available-4 half"></td>
+        <td class="available-5 half"></td>
       </tr>
       <tr>
         <td class="availability">11 AM</td>
-        <td class="available-1"></td>
-        <td class="available-2"></td>
-        <td class="available-3"></td>
-        <td class="available-4"></td>
-        <td class="available-5"></td>
+        <td class="available-1 sharp"></td>
+        <td class="available-2 sharp"></td>
+        <td class="available-3 sharp"></td>
+        <td class="available-4 sharp"></td>
+        <td class="available-5 sharp"></td>
       </tr>
       <tr>
         <td class="availability">12 PM</td>
-        <td class="available-1"></td>
-        <td class="available-2"></td>
-        <td class="available-3"></td>
-        <td class="available-4"></td>
-        <td class="available-5"></td>
+        <td class="available-1 half"></td>
+        <td class="available-2 half"></td>
+        <td class="available-3 half"></td>
+        <td class="available-4 half"></td>
+        <td class="available-5 half"></td>
       </tr>
       <tr>
         <td class="availability">1 PM</td>
-        <td class="available-1"></td>
-        <td class="available-2"></td>
-        <td class="available-3"></td>
-        <td class="available-4"></td>
-        <td class="available-5"></td>
+        <td class="available-1 sharp"></td>
+        <td class="available-2 sharp"></td>
+        <td class="available-3 sharp"></td>
+        <td class="available-4 sharp"></td>
+        <td class="available-5 sharp"></td>
       </tr>
       <tr>
         <td class="availability">2 PM</td>
-        <td class="available-1"></td>
-        <td class="available-2"></td>
-        <td class="available-3"></td>
-        <td class="available-4"></td>
-        <td class="available-5"></td>
+        <td class="available-1 half"></td>
+        <td class="available-2 half"></td>
+        <td class="available-3 half"></td>
+        <td class="available-4 half"></td>
+        <td class="available-5 half"></td>
       </tr>
       <tr>
         <td class="availability">3 PM</td>
-        <td class="available-1"></td>
-        <td class="available-2"></td>
-        <td class="available-3"></td>
-        <td class="available-4"></td>
-        <td class="available-5"></td>
+        <td class="available-1 sharp"></td>
+        <td class="available-2 sharp"></td>
+        <td class="available-3 sharp"></td>
+        <td class="available-4 sharp"></td>
+        <td class="available-5 sharp"></td>
       </tr>
       <tr>
         <td class="availability">4 PM</td>
-        <td class="available-1"></td>
-        <td class="available-2"></td>
-        <td class="available-3"></td>
-        <td class="available-4"></td>
-        <td class="available-5"></td>
+        <td class="available-1 half"></td>
+        <td class="available-2 half"></td>
+        <td class="available-3 half"></td>
+        <td class="available-4 half"></td>
+        <td class="available-5 half"></td>
       </tr>
       <tr>
         <td class="availability">5 PM</td>
-        <td class="available-1"></td>
-        <td class="available-2"></td>
-        <td class="available-3"></td>
-        <td class="available-4"></td>
-        <td class="available-5"></td>
+        <td class="available-1 sharp"></td>
+        <td class="available-2 sharp"></td>
+        <td class="available-3 sharp"></td>
+        <td class="available-4 sharp"></td>
+        <td class="available-5 sharp"></td>
       </tr>
     </tbody>
   </table>
@@ -99,6 +101,16 @@
 
 
 //css
+
+:root {
+  --color1: #ffffff;
+  --color2: #cdfecd;
+  --color3: #9cfc9c;
+  --color4: #05c705;
+  --color5: #037c03;
+  --solid-border: 1px solid #000;
+  --dashed-border: 1px dashed #000;
+}
 
 html {
   box-sizing: border-box;
@@ -113,6 +125,13 @@ body {
   margin: 20px;
 }
 
+.sharp {
+  border: var(--solid-border);
+}
+.half {
+  border: var(--dashed-border);
+}
+
 table {
   border-collapse: collapse;
   width: 80%;
@@ -121,9 +140,9 @@ table {
 }
 
 th, td {
-  border: 1px solid #333;
   padding: 8px 12px;
   text-align: center;
+  border: 1px solid #000;
 }
 
 th {
@@ -142,7 +161,6 @@ th {
 }
 
 .available-1, .available-2, .available-3, .available-4, .available-5 {
-  border: 1px solid #999;
   height: 40px;
   cursor: pointer;
 }
