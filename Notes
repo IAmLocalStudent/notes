@@ -1,0 +1,9 @@
+Feature	Explicit Grid		Implicit Grid
+
+
+Size control			Fully customizable using grid-template-rows and 	grid-template-columns .	Controlled by grid-auto-rows and grid-auto-columns , or defaults to auto .
+Default Behavior		Does not change unless explicitly defined.		Automatically adapts to items placed outside the explicit grid.
+Complexity			Requires more planning for layout structure.		Easier to implement for unstructured or variable content.
+Flexibility			Rigid structure with defined rows and columns.		Flexible and adapts to dynamically placed content.
+Performance			Potentially more performant as the layout is predefined.	May require additional browser computations for implicit grid generation.
+Use case			Useful when the grid structure is predictable and defined upfront.	Useful for dynamic layouts where content is unknown or changes frequently.
