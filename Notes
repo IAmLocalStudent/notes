@@ -7,3 +7,12 @@ Complexity			Requires more planning for layout structure.		Easier to implement f
 Flexibility			Rigid structure with defined rows and columns.		Flexible and adapts to dynamically placed content.
 Performance			Potentially more performant as the layout is predefined.	May require additional browser computations for implicit grid generation.
 Use case			Useful when the grid structure is predictable and defined upfront.	Useful for dynamic layouts where content is unknown or changes frequently.
+
+Falsy values are values that evaluate to false in a boolean context. Examples of falsy values are:
+
+"" (empty string)
+0
+false
+null
+undefined
+NaN
