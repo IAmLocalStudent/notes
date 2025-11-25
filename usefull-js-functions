@@ -1,8 +1,18 @@
 Build an Email Masker
-
 const maskEmail = email => {
+  const atIndex = email.indexOf("@");
+  const username = email.slice(0, atIndex);
+  const domain = email.slice(atIndex);
 
-  return email;
-}
+  if (username.length <= 2) {
+    // No middle characters to mask
+    return username + domain;
+  }
 
-console.log(maskEmail("apple.pie@example.com"));
+  const firstChar = username[0];
+  const lastChar = username[username.length - 1];
+  const maskedMiddle = "*".repeat(username.length - 2);
+
+  return firstChar + maskedMiddle + lastChar + domain;
+};
+
