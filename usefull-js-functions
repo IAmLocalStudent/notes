@@ -1,1 +1,8 @@
 Build an Email Masker
+
+const maskEmail = email => {
+
+  return email;
+}
+
+console.log(maskEmail("apple.pie@example.com"));
