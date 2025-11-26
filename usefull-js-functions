@@ -16,3 +16,30 @@ const maskEmail = email => {
   return firstChar + maskedMiddle + lastChar + domain;
 };
 
+Build a Card Counting Assistant
+
+let count = 0;
+const cc = card => {
+  const incNumCards = [2,3,4,5,6];
+  const staticNumCards = [7,8,9];
+  const charCards = ["J", "Q", "K", "A"];
+
+  if (card > 1 && card < 11) {
+    card = Number(card);
+    if (incNumCards.includes(card)) {
+      count++;
+      console.log(count);
+    }
+    else if (staticNumCards.includes(card)) {
+      console.log("count stays neutral");
+    }
+  } else if {
+    card = card.toString();
+    if (charCards.includes(card) {
+    }
+  }
+}
+
+
+
+console.log(cc(7))
