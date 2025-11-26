@@ -1,0 +1,11 @@
+export function limesToCut(wedgesNeeded, limes) {
+  const limeSizes = {
+    "small": 6,
+    "medium": 8,
+    "large": 10
+  }
+  while(limeSizes === "small") {
+    console.log(`Quantity of limes ${limeSizes}`)   
+  }
+  
+}
